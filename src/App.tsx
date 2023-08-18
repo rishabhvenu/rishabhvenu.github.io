@@ -43,11 +43,7 @@ class App extends React.Component {
                 to complete what I am coding.
               </p>
               <div className="btn-con">
-                <a
-                  href="/public/resume.pdf"
-                  target="_blank"
-                  className="main-btn"
-                >
+                <a href="/resume.pdf" target="_blank" className="main-btn">
                   <span className="btn-text">Download CV</span>
                   <span className="btn-icon">
                     <i className="fas fa-download"></i>
@@ -79,11 +75,7 @@ class App extends React.Component {
                   that day on, the journey of software development started.
                 </p>
                 <div className="btn-con">
-                  <a
-                    href="/public/resume.pdf"
-                    target="_blank"
-                    className="main-btn"
-                  >
+                  <a href="/resume.pdf" target="_blank" className="main-btn">
                     <span className="btn-text">Download CV</span>
                     <span className="btn-icon">
                       <i className="fas fa-download"></i>
