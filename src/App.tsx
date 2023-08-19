@@ -2,7 +2,7 @@ import React from "react";
 import "./../stylesheets/styles.scss";
 import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
-import Contact from "./pages/AboutMe";
+import Contact from "./pages/Contact";
 import ContactControls from "./pages/ContactControls";
 
 class App extends React.Component {
