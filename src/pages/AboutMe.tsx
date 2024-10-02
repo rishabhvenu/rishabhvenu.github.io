@@ -1,4 +1,5 @@
 import React from "react";
+import FiveStarComponent from "../components/FiveStarComponent";
 
 class AboutMe extends React.Component {
   render() {
@@ -16,7 +17,7 @@ class AboutMe extends React.Component {
             <p>
               I am a passionate software developer who can deliver high-quality
               results. With 5+ years of experience in software development, I
-              thrive on creating complex yet user-friendly applications
+              thrive on creating complex yet user-friendly applications.
               <br /> <br /> I started coding at the very young age of 11 out of
               sheer curiosity; I had set my eyes upon something my brother was
               programming, which seemed to be a website. From that day on, the
@@ -62,65 +63,6 @@ class AboutMe extends React.Component {
                 <p className="small-text">
                   Customer <br /> reviews
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="about-stats">
-          <h4 className="stat-title">My Skills</h4>
-          <div className="progress-bars">
-            <div className="progress-bar">
-              <p className="prog-title">Java</p>
-              <div className="progress-con">
-                <p className="prog-text">90%</p>
-                <div className="progress">
-                  <span className="html"></span>
-                </div>
-              </div>
-            </div>
-            <div className="progress-bar">
-              <p className="prog-title">mysql</p>
-              <div className="progress-con">
-                <p className="prog-text">80%</p>
-                <div className="progress">
-                  <span className="mysql"></span>
-                </div>
-              </div>
-            </div>
-            <div className="progress-bar">
-              <p className="prog-title">javascript</p>
-              <div className="progress-con">
-                <p className="prog-text">85%</p>
-                <div className="progress">
-                  <span className="js"></span>
-                </div>
-              </div>
-            </div>
-            <div className="progress-bar">
-              <p className="prog-title">react</p>
-              <div className="progress-con">
-                <p className="prog-text">75%</p>
-                <div className="progress">
-                  <span className="react"></span>
-                </div>
-              </div>
-            </div>
-            <div className="progress-bar">
-              <p className="prog-title">nodejs</p>
-              <div className="progress-con">
-                <p className="prog-text">85%</p>
-                <div className="progress">
-                  <span className="node"></span>
-                </div>
-              </div>
-            </div>
-            <div className="progress-bar">
-              <p className="prog-title">python</p>
-              <div className="progress-con">
-                <p className="prog-text">70%</p>
-                <div className="progress">
-                  <span className="python"></span>
-                </div>
               </div>
             </div>
           </div>
@@ -195,6 +137,81 @@ class AboutMe extends React.Component {
             <p>
               Managed commissions for clients & freelancers, handled payments
               between them, and also handled any conflicts
+            </p>
+          </div>
+        </div>
+        <h4 className="stat-title">Reviews</h4>
+        <div className="timeline">
+          <div className="timeline-item">
+            <div className="tl-icon">
+              <img className="pfp" src="/RebelKnoxProfilePicture.jpg" />
+            </div>
+            <p className="pfp-title">RebelKnox</p> <FiveStarComponent />
+            <br /> <br />
+            <p className="reviewtext">
+              Vouch vouch, vouch vouch, vouch to the vouch and vouch to the
+              vouch to the vouch. I can't say it enough, great job with my
+              project!! Hard worker and dedicates time and extreme effort to
+              clients. Will do more business in the future.
+            </p>
+          </div>
+          <div className="timeline-item">
+            <div className="tl-icon">
+              <img className="pfp" src="/NekoretLineProfilePicture.jpg" />
+            </div>
+            <p className="pfp-title">Nekoret Lin</p> <FiveStarComponent />
+            <br /> <br />
+            <p className="reviewtext">
+              He is the MOST efficient developer I ever seen! Vouch him 🙂
+            </p>
+          </div>
+          <div className="timeline-item">
+            <div className="tl-icon">
+              <img className="pfp" src="/Kevintr303ProfilePicture.jpeg" />
+            </div>
+            <p className="pfp-title">kevintr303</p> <FiveStarComponent />
+            <br /> <br />
+            <p className="reviewtext">
+              Communication from this developer is amazing, and he is also a
+              great developer overall. There were some issues and
+              miscommunication with the plugin, but he was able to fix
+              everything to exactly how I wanted it. I highly recommend
+              considering him to be your plugin's developer. His prices are
+              amazing for the quality that he gives.
+            </p>
+          </div>
+          <div className="timeline-item">
+            <div className="tl-icon">
+              <img className="pfp" src="/SaymoanProfilePicture.jpg" />
+            </div>
+            <p className="pfp-title">Saymoan</p> <FiveStarComponent />
+            <br /> <br />
+            <p className="reviewtext">
+              Vouch! Friendly. Fast. Great person. Needed a plugin made to fix
+              an issue and he made exactly what I wanted. Even exceed my
+              expectations with how well it works after forgetting to list
+              plugins that need it will need to be compatible with. Gave a great
+              price for a great plugin. If you need a plugin, here is your guy!
+            </p>
+          </div>
+          <div className="timeline-item">
+            <div className="tl-icon">
+              <img className="pfp" src="/MrBorderProfilePicture.jpg" />
+            </div>
+            <p className="pfp-title">MrBorder</p> <FiveStarComponent />
+            <br /> <br />
+            <p className="reviewtext">
+              Vouch. amazing dev and easy to work with
+            </p>
+          </div>
+          <div className="timeline-item">
+            <div className="tl-icon">
+              <img className="pfp" src="/NordLordProfilePicture.png" />
+            </div>
+            <p className="pfp-title">NordLord</p> <FiveStarComponent />
+            <br /> <br />
+            <p className="reviewtext">
+              Vouch. Went above and beyond on features despite not needing to!
             </p>
           </div>
         </div>

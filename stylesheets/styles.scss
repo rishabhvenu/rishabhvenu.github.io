@@ -351,6 +351,11 @@ section {
 
 /*Timeline*/
 .timeline {
+  .fivestar {
+    display: inline;
+    letter-spacing: 5px;
+    color: yellow;
+  }
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
@@ -359,7 +364,14 @@ section {
     position: relative;
     padding-left: 3rem;
     border-left: 1px solid var(--color-grey-5);
+    .reviewtext {
+      font-weight: bold;
+    }
     .tl-icon {
+      .pfp {
+        border-radius: 50%;
+        width: 150%;
+      }
       position: absolute;
       left: -27px;
       top: 0;
@@ -381,6 +393,15 @@ section {
       display: inline-block;
       font-size: 0.8rem;
       text-transform: uppercase;
+      font-weight: 500;
+    }
+    .pfp-title {
+      padding: 0.4rem 1rem;
+      background-color: var(--color-grey-4);
+      border-radius: 15px;
+      color: white;
+      display: inline-block;
+      font-size: 1.1rem;
       font-weight: 500;
     }
     h5 {
